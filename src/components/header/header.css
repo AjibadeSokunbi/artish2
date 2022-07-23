@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #CBC3E3;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.header__container {
+    object-fit: contain;
+    max-width: 3%;
+}
+img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:600px) {
+    .header__container {
+      max-width: 8%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .header__container {
+      max-width: 6%;
+    }
+}
